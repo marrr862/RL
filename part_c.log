@@ -1,0 +1,14 @@
+ID 7 map ['SFFH', 'HFFH', 'HHFF', 'HFFG'] slip 0.6
+
+=== Part C: SARSA and Q-learning on my FrozenLake ===
+v*(start) = 0.4841   (gamma = 0.99)
+Policy                       Value ratio  Worst seed  Success  Time (s)
+-----------------------------------------------------------------------
+DP optimal                         1.000                0.556
+SARSA (lab settings)               0.564       0.511    0.294       0.2
+Q-learning (lab settings)          0.555       0.450    0.293       0.2
+SARSA (my settings)                1.000       1.000    0.556       9.9  PASS
+Q-learning (my settings)           1.000       1.000    0.556      10.8  PASS
+Saved plot -> frozenlake_results.png
+SARSA: greedy action differs from DP in states []
+Q-learning: greedy action differs from DP in states []

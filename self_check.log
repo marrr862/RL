@@ -1,0 +1,19 @@
+
+Checking sarsa_ql_assignment.py  (student ID 7: slip = 0.600, map ['SFFH', 'HFFH', 'HHFF', 'HFFG'])
+============================================================
+[PASS] Student ID is set
+[PASS] A: recorder keeps every k-th episode
+[PASS] A: heat map draws the right arrows
+[PASS] A: video has one frame per snapshot
+[PASS] B: Gymnasium-style interface
+[PASS] B: walls keep you in place
+[PASS] B: model matches Gymnasium (standard map, slippery)
+[PASS] B: model matches Gymnasium (standard map, not slippery)
+[PASS] B: model is correct for YOUR map and slip
+[PASS] B: step() samples from your own P
+[PASS] B: time limit sets truncated, not terminated
+[PASS] B: same seed gives the same episode
+[PASS] C: both agents reach 85% of the optimal value (1 seed)
+============================================================
+13/13 checks passed.
+All checks passed. Now run sarsa_ql_assignment.py and answer Part D.
