@@ -1,0 +1,18 @@
+
+Checking mab_assignment.py
+============================================================
+[PASS] Student ID is set
+[PASS] UCB1: returns a valid int
+[PASS] UCB1: shows every arm once first
+[PASS] UCB1: bonus favours the least-shown arm
+[PASS] UCB1: uses the constant c
+[PASS] UCB1: beats the A/B test
+[PASS] TS: starts with Beta(1, 1) beliefs
+[PASS] TS: update() counts clicks and non-clicks
+[PASS] TS: choices are random, not argmax of the mean
+[PASS] TS: returns a valid int
+[PASS] TS: finds the best headline
+[PASS] TS: lower regret than UCB1 and the A/B test
+============================================================
+12/12 checks passed.
+All checks passed. Now run mab_assignment.py for Parts B and C.

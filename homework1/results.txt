@@ -1,0 +1,19 @@
+Student ID 36127 -> TRUE_CTR = [0.09, 0.027, 0.045, 0.057, 0.065, 0.054]
+Best headline: H0
+
+Part B: all strategies
+Strategy                            Regret   % on best
+------------------------------------------------------
+A/B Test (uniform)                   673.3       16.7%
+Epsilon-Greedy (eps=0.1)             134.1       80.6%
+UCB1                                 459.0       38.0%
+Thompson Sampling                     70.1       89.9%
+Saved plot -> part_b.png
+
+C2: UCB1 constant
+Strategy                            Regret   % on best
+------------------------------------------------------
+UCB1 (c=0.5)                         270.5       62.1%
+UCB1                                 459.0       38.0%
+UCB1 (c=5.0)                         544.4       28.5%
+Saved plot -> part_c2.png
